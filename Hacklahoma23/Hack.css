@@ -1,0 +1,104 @@
+body {
+    background-image: url("./Menu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+  }
+  .troops-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .troop-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .troop-image {
+    width: 100px;
+    height: 100px;
+
+    margin-right: 10px;
+  }
+  .troop-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .troop-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .troop-price {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .buy-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .play-button {
+    background-color: #00ff95;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .reset-button {
+    background-color: #eeff00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  textarea {
+    height: 100px;
+    margin-top: 300px;
+    overflow-y: auto;
+  }
+  button:hover {
+    background-color: #0062cc;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  p, h2 {
+    color: rgb(230, 20, 20);
+  }

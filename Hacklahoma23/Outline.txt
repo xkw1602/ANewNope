@@ -1,0 +1,26 @@
+Star wars battle sim
+
+Multiple Units
+- Trooper 
+- Sniper
+- Heavy type thing
+- Flying
+
+* Units 1v1 each other and have hit chances/health
+
+Classes
+    - Units (abstract)
+        * 4 types
+    - Game
+        * Arrays of units
+            - Pop and kill each other until one array is empty
+
+
+best 2 out of 3: 
+
+Flying Battles
+Infantry Battles
+Vehicle Battles
+
+- Each troop has a price
+- Player gets set amount of currency to spread across troops of each type
